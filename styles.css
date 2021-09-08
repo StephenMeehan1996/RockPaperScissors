@@ -1,0 +1,144 @@
+body{
+    background-color: #FFE459;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1px;
+    
+   
+    
+}
+.score{
+    position: absolute;
+    right: 20px;
+    font-family: cursive;
+    font-weight: 400;
+    font-family: 'Orbitron', sans-serif;
+}
+.score p{
+    border: 1px solid black;
+    margin-top: 0px;
+    padding: 5px 15px 5px 5px;
+    border-radius: 7px;
+}
+h1{
+    
+    color: #3D087B;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    border-bottom: 3px solid #11052C ;
+    width: 90%;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.CPUImage{
+
+    text-align: center;
+   
+}
+.buttonContainer{
+    
+    text-align: center;
+    margin: 50px 0 50px 0;
+    border-bottom: 3px solid #11052C ;
+    width: 90%;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+
+}
+
+.buttonContainer button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    font-size: 1.3rem;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #F43B86;
+    color: #FEFBF3 ;
+    border: 2px solid black;
+    
+    
+}
+.image{
+    display: inline;
+    height: 250px;
+    width: 350px;
+    border-radius: 45px;
+    border: 2px solid black;
+    
+   
+}
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: #11052C;
+    text-align: center;
+    width: 50%;
+    height: 75px;
+    margin: 50px auto 0 auto;
+    padding-top: 25px;
+    border-radius: 45px;
+
+}
+footer p{
+   
+    
+    font-size: 1.2rem;
+    color: #FEFBF3 ;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+#winMessage{
+    width: 250px;
+    height: 70px;
+    margin: 30px auto 0 auto;
+    padding: 0 20px 0 20px;
+    background-color: #F43B86;
+    color: #FEFBF3 ;
+    border-radius: 20px;
+    text-decoration: underline;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+
+}
+.hidden{
+   visibility: hidden;
+   
+    
+}
+
+.gameControl{
+    
+    text-align: center;
+    width: 35%;
+    height: 250px;
+    background-color: #11052C;
+    color: #FEFBF3 ;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 32%;
+    padding-top: 70px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+    
+}
+.gameControl button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 white;
+    opacity: 0.5;
+}
+

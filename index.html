@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rock Paper Scissors</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:ital,wght@1,200&family=Orbitron&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        
+
+        <div class = "gameControl">
+            <p class = "gameP">What score would you like to play too</p>
+            
+            <input type="text" id = "target"><br><br>
+            <button class = "continue">Continue</button>
+            
+        </div>
+
+            <h1>&#10060;Rock Paper Scissors&#10060;</h1>
+
+            <div class = "score">
+                <p class = "gamesPlayed">Games played: 0</p>
+                <P class = "playerWins">Player wins:  0</P>
+                <p class = "CPUWins">CPU wins:     0</p>
+                <p class = "draws">Draws: 0</p>
+            </div>
+    
+            <div class = "CPUImage">
+                <img src="images/RPS0.png" class = "image" alt="Placeholder">
+                <div id = winMessage>
+                    <p class ="comChooses"></p>
+                    <p class = "message">Ready To Play? Make your Choice</p>
+                </div>
+                
+            </div>
+            
+    
+            <div class = "buttonContainer">
+                <button class = "rock">Rock</button>
+                <button class = "paper">Paper</button>
+                <button class = "scissors">Scissors</button>
+            </div>
+
+        <script src="index.js"></script>
+    </body>
+
+    <footer> 
+        <p>Created Stephen Meehan</p>
+    </footer>
+</html>
